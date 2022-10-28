@@ -1,0 +1,6 @@
+module M1 {
+    requires objc
+    umbrella "OC"
+    module *{export *}
+
+}

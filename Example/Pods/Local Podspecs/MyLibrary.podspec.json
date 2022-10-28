@@ -19,8 +19,10 @@
     "ios": "9.0"
   },
   "source_files": "MyLibrary/Classes/**/*",
-  "public_header_files": "Pod/public/**/*.h",
-  "private_header_files": "Pod/private/**/*.h",
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "../../MyLibrary/Classes/private"
+  },
+  "public_header_files": "MyLibrary/Classes/public/**/*.h",
   "dependencies": {
     "AFNetworking": [
       "~> 2.3"

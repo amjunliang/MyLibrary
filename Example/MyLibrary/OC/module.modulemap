@@ -1,0 +1,12 @@
+module M2 {
+    requires objc
+    header "ZYObj1.h"
+    export *
+    
+    module M2 {
+        requires objc
+        header "ZYObj2.h"
+        export *
+    }
+}
+

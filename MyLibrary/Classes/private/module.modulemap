@@ -1,0 +1,5 @@
+
+module MyLibrary_private {
+    header "ZYObjc1.h"
+    export *
+}

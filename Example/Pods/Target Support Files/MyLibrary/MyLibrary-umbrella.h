@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "ZYObjc1.h"
 #import "ZYObjc.h"
 
 FOUNDATION_EXPORT double MyLibraryVersionNumber;

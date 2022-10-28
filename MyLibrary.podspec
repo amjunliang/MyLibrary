@@ -35,9 +35,12 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'MyLibrary' => ['MyLibrary/Assets/*.png']
   # }
+  s.pod_target_xcconfig = {
+    'SWIFT_INCLUDE_PATHS' => '../../MyLibrary/Classes/private'
+  }
   
-  s.public_header_files = 'Pod/public/**/*.h'
-  s.private_header_files = 'Pod/private/**/*.h'
+  s.public_header_files = 'MyLibrary/Classes/public/**/*.h'
+#  s.private_header_files = 'MyLibrary/private/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 2.3'
 end

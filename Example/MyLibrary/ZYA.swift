@@ -7,11 +7,13 @@
 //
 
 import UIKit
+
+import ZYFA
 import MyLibrary
 
-class ZYA: NSObject {
+@objc class ZYA: NSObject {
     override init() {
-        let a = ZYObjc()
-        
+        _ = ZYFA.ZYObj2()
+        _ = ZYSwift()
     }
 }

@@ -7,11 +7,13 @@
 //
 
 #import "ZYAppDelegate.h"
+@import ZYFA;
 
 @implementation ZYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    ZYObj2.new;
     // Override point for customization after application launch.
     return YES;
 }
