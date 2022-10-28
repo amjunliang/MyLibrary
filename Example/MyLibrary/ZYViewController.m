@@ -7,6 +7,7 @@
 //
 
 #import "ZYViewController.h"
+@import MyLibrary.ZYObjc;
 
 @interface ZYViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    ZYObjc *objc = ZYObjc.new;
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

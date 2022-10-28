@@ -27,16 +27,17 @@ TODO: Add long description of the pod here.
   s.author           = { 'majunliang' => 'majunliang@zhangyue.com' }
   s.source           = { :git => 'https://github.com/majunliang/MyLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
+  
+  s.ios.deployment_target = '9.0'
+  
   s.source_files = 'MyLibrary/Classes/**/*'
   
   # s.resource_bundles = {
   #   'MyLibrary' => ['MyLibrary/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  
+  s.public_header_files = 'Pod/public/**/*.h'
+  s.private_header_files = 'Pod/private/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,0 +1,29 @@
+{
+  "name": "MyLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of MyLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/majunliang/MyLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "majunliang": "majunliang@zhangyue.com"
+  },
+  "source": {
+    "git": "https://github.com/majunliang/MyLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MyLibrary/Classes/**/*",
+  "public_header_files": "Pod/public/**/*.h",
+  "private_header_files": "Pod/private/**/*.h",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}
